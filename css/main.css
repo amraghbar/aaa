@@ -1011,7 +1011,6 @@ main .hero .icon_con span {
         padding: 0 0;
     }
 
-
     .benefits .ben_top p {
         height: fit-content;
         width: 100%;
@@ -1020,16 +1019,22 @@ main .hero .icon_con span {
     .benefits .ben_bot .card {
         gap: 30px;
         padding: 30px;
-        width: 100%;
-        margin-left: -21px;
+        width: 92%;
+        margin-left: 5px;
     }
 
     .benefits .ben_bot .card p {
         height: fit-content;
+        width: 100%;
+        font-size: 10px;
     }
 
     .ben_bot .card h3 {
-        width: 340px;
+        width: 302px;
+    }
+
+    .ben_bot .card .h2 {
+        font-size: 15px;
     }
 }
 
