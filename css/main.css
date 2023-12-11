@@ -41,6 +41,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
 }
 
 .row {
@@ -270,6 +271,11 @@ header .auth .sin {
 
 /*  start hero */
 
+.hero {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
 .hero .row {
     display: flex;
     flex-direction: column;
@@ -404,7 +410,7 @@ main .hero .icon_con span {
 
 /* media   */
 /* phone  */
-@media screen and (min-width: 0) and (max-width:547px) {
+@media screen and (min-width: 0) and (max-width:549px) {
     .hero {
         margin-top: 5%;
 
@@ -659,7 +665,7 @@ main .hero .icon_con span {
 
 
 /* phon */
-@media screen and (min-width: 0) and (max-width:547px) {
+@media screen and (min-width: 0) and (max-width:549px) {
     .company .com_item {
         flex-wrap: nowrap;
         overflow-x: scroll;
@@ -711,7 +717,7 @@ main .hero .icon_con span {
 
     }
 
-  
+
 
     .company .item {
         width: calc(100% / 5.5);
@@ -725,7 +731,8 @@ main .hero .icon_con span {
         padding: 30px;
 
     }
-    .company .item{
+
+    .company .item {
         padding: 30px 40px;
     }
 }
@@ -758,18 +765,20 @@ main .hero .icon_con span {
     background: rgba(255, 255, 255, 0.20);
 
 }
+
 /*  */
 
 
-@media screen and (min-width: 0) and (max-width:547px) {
-     .video {
+@media screen and (min-width: 0) and (max-width:549px) {
+    .video {
         width: 85%;
         height: 243px;
-        background-size:100%;
+        background-size: 100%;
         filter: brightness(0.8);
         border-radius: 20px;
         border: 0 solid var(--white-97, #F7F7F8);
     }
+
     .video img {
         position: absolute;
         top: 48%;
@@ -781,50 +790,54 @@ main .hero .icon_con span {
     .video {
         width: 85%;
         height: 243px;
-        background-size:100%;
+        background-size: 100%;
         filter: brightness(0.8);
         border-radius: 20px;
         border: 0 solid var(--white-97, #F7F7F8);
     }
+
     .video img {
         position: absolute;
         top: 48%;
         left: 44%;
     }
-   
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 904px) {
     .video {
         width: 90%;
         height: 450px;
-        background-size:100%;
+        background-size: 100%;
         filter: brightness(0.8);
         border-radius: 20px;
         border: 0 solid var(--white-97, #F7F7F8);
     }
+
     .video img {
         position: absolute;
         top: 48%;
         left: 44%;
     }
-   
+
 }
+
 @media screen and (min-width: 905px) and (max-width: 1200px) {
     .video {
         width: 95%;
         height: 540px;
-        background-size:100%;
+        background-size: 100%;
         filter: brightness(0.8);
         border-radius: 20px;
         border: 0 solid var(--white-97, #F7F7F8);
     }
+
     .video img {
         position: absolute;
         top: 48%;
         left: 44%;
     }
-    
+
 }
 
 
@@ -988,6 +1001,188 @@ main .hero .icon_con span {
     margin-right: 10px;
 }
 
+/*  */
+@media screen and (min-width: 0) and (max-width:548px) {
+    .benefits {
+        padding: 15px 25px;
+    }
+
+    .benefits .counter {
+        padding: 0 0;
+    }
+
+
+    .benefits .ben_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .benefits .ben_bot .card {
+        gap: 30px;
+        padding: 30px;
+        width: 100%;
+        margin-left: -21px;
+    }
+
+    .benefits .ben_bot .card p {
+        height: fit-content;
+    }
+
+    .ben_bot .card h3 {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width:548px) and (max-width:600px) {
+
+    .benefits {
+        padding: 15px 25px;
+    }
+
+    .benefits .counter {
+        padding: 0 0;
+    }
+
+    .benefits .ben_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .benefits .ben_bot .card {
+        gap: 30px;
+        padding: 30px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .benefits .ben_bot .card p {
+        height: fit-content;
+    }
+
+    .ben_bot .card h3 {
+        width: 454px;
+    }
+
+    .ben_bot .card .h2 {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 904px) {
+    .benefits {
+        padding: 15px 25px;
+    }
+
+    .benefits .counter {
+        padding: 0 0;
+    }
+
+    .benefits .ben_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .benefits .ben_bot .card {
+        gap: 30px;
+        padding: 30px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .benefits .ben_bot .card p {
+        height: fit-content;
+    }
+
+    .ben_bot .card h3 {
+        width: 637px;
+    }
+
+    
+    .ben_bot .card h2 {
+        font-size: 23px;
+    }
+    .ben_bot .word p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 905px) and (max-width: 1200px) { 
+    .benefits {
+        padding: 15px 25px;
+    }
+
+    .benefits .counter {
+        padding: 0 0;
+    }
+
+    .benefits .ben_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .benefits .ben_bot .card {
+        gap: 30px;
+        padding: 30px;
+        width:30%;
+        margin-left: 5px;
+    }
+
+    .benefits .ben_bot .card p {
+        height: fit-content;
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .ben_bot .card h3 {
+        width: 247px;
+    }
+
+    
+    .ben_bot .card h2 {
+        font-size: 16px;
+    }
+ 
+}
+
+@media screen and (min-width: 1201px) {
+    .benefits {
+        padding: 15px 25px;
+    }
+
+    .benefits .counter {
+        padding: 0 0;
+    }
+
+    .benefits .ben_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .benefits .ben_bot .card {
+        gap: 30px;
+        padding: 30px;
+        width:30%;
+        margin-left: 5px;
+    }
+
+    .benefits .ben_bot .card p {
+        height: fit-content;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .ben_bot .card h3 {
+        width: 370px;
+    }
+
+    
+    .ben_bot .card h2 {
+        font-size: 24px;
+    }
+ 
+}
+/*  */
 .courses {
     padding: 3% 0;
 }
